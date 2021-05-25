@@ -11,7 +11,12 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                darlin: []
             },
+            backgroundImage: theme => ({
+                    'hero-pattern': "url('/img/floating-cogs.svg')",
+                    'footer-texture': "url('/img/footer-texture.png')",
+            })
         },
     },
 
